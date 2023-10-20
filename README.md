@@ -26,19 +26,16 @@ To Install Xen Hypervisor (Para Virtualization) and Virtual Manager on Ubuntu 14
 
     auto lo
 
-    
     iface lo inet loopback
 
 
     auto xenbr0
 
-    
     iface xenbr0 inet dhcp bridge_ports eth0
 
 
     auto eth0
 
-    
     iface eth0 inet manual
 
   Then restart network manager
